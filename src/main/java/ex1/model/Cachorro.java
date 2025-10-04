@@ -1,4 +1,4 @@
-package model;
+package ex1.model;
 
 public class Cachorro {
 

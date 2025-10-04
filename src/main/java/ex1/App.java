@@ -1,4 +1,4 @@
-import model.Cachorro;
+import ex1.model.Cachorro;
 
 public class App {
 
