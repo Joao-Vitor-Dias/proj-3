@@ -1,3 +1,5 @@
+package ex1;
+
 import ex1.model.Cachorro;
 
 public class App {
