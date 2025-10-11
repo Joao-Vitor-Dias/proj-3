@@ -1,0 +1,10 @@
+
+
+/// Add a branch
+git checkout -b "name-branch"
+
+/// Remove a branch
+git branch -D "name-branch"
+
+/// Change actual branch
+git checkout "name"

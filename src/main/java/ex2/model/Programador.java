@@ -1,7 +1,5 @@
 package ex2.model;
 
-import javax.swing.text.html.parser.Parser;
-
 public class Programador {
 
     private String nome;
