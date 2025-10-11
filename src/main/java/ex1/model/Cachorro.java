@@ -7,6 +7,7 @@ public class Cachorro {
     private int idade;
     private String dono;
 
+    // Construtor
     public Cachorro(String nome, String raca, int idade, String dono) {
         this.nome = nome;
         this.raca = raca;

@@ -8,6 +8,7 @@ public class Programador {
     private Stack stack;
     private boolean empregado;
 
+    // Construtor
     public Programador(String nome, int idade, String especializacao, Stack stack, boolean eEmpregado) {
         this.nome = nome;
         this.idade = idade;
