@@ -1,22 +1,26 @@
 package ex1.model;
 
-public class Cachorro {
+public class Cachorro extends Animal{
 
-    private String nome;
     private String raca;
-    private int idade;
     private String dono;
 
     // Construtor
-    public Cachorro(String nome, String raca, int idade, String dono) {
-        this.nome = nome;
+    public Cachorro(String nome, int idade,String raca, String dono) {
+        super(nome,idade);
         this.raca = raca;
-        this.idade = idade;
         this.dono = dono;
     }
 
-    public void latir(){
+    @Override
+    public void emitirSom(){
+        super.emitirSom();
         System.out.printf("%s está latindo: Au Au !!!\n", getNome());
+    }
+
+    @Override
+    public void alimentar(){
+        System.out.println("Alimento cachorro ...");
     }
 
     public void mostrarDados(){
@@ -30,13 +34,6 @@ public class Cachorro {
 
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 
     public String getRaca() {
         return raca;
@@ -44,14 +41,6 @@ public class Cachorro {
 
     public void setRaca(String raca) {
         this.raca = raca;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
     }
 
     public String getDono() {

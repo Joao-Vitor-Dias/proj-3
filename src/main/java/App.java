@@ -11,9 +11,6 @@ public class App {
         String word = "Teste";
 
 
-
-
     }
-
 
 }

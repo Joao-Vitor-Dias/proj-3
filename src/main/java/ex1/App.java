@@ -7,13 +7,11 @@ public class App {
 
     public static void main(String[] args) {
 
-        Cachorro cachorro = new Cachorro("Lex", "Kangal", 4 ,"John");
+        Cachorro cachorro = new Cachorro("Perguer",12 ,"Doberman","EU");
 
-        Gato gato = new Gato("Hebert", 6,"Persa");
+        cachorro.emitirSom();
 
-        cachorro.latir();
         cachorro.mostrarDados();
-        gato.exibirDados();
 
     }
 }
